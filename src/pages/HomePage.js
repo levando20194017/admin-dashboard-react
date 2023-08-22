@@ -116,11 +116,11 @@ const RouteWithSidebar = ({ component: Component, ...rest }) => {
 
 export default () => (
   <Switch>
-    <RouteWithLoader
+    {/* <RouteWithLoader
       exact
       path={Routes.Presentation.path}
       component={Presentation}
-    />
+    /> */}
     <RouteWithLoader exact path={Routes.Signin.path} component={Signin} />
     <RouteWithLoader exact path={Routes.Signup.path} component={Signup} />
     <RouteWithLoader
